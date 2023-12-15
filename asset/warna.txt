@@ -1,0 +1,15 @@
+jingga
+kuning
+biru
+hijau
+biru langit
+
+#FF6600
+
+#FFFF00
+
+#000080
+
+#008000
+
+#87CEEB
