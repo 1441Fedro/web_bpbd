@@ -13,48 +13,46 @@
         <h1>Web_BPBD</h1>
     </header>
 
-    <aside>
-        <div>
-            <img src="asset/retana.png" alt="account">
-        </div>
-        <div>
-            <p id="nama">Fedro</p id="nama">
-            <p id="domisili">Bekasi</p>
-            <p id="role">Front End</p>
-        </div>
-        <div>
-            <button>LOG OUT</button>
-        </div>
-    </aside>
-
+    
     <main>
-        <form id="pelaporan">
-            <h2>LAPORAN TELAH TERJADI BENCANA</h2>
-            <div class="formLokasi">
-                <label for="infoLokasi">LOKASI</label>
-                <input type="text">
-
-                <label for="infoDesa">DESA</label>
-                <input type="text">
-
-                <label for="InfoKecamatan">KECAMATAN</label>
-                <input type="text">
-            </div>
-            <div class="formWaktu">
-                <label for="infoBencana">JENIS BENCANA</label>
-                <input type="text">
-
-                <label for="infoTanggal">HARI/TANGGAL</label>
-                <input type="date">
-
-                <label for="infoJam">JAM</label>
-                <input type="time">
-            </div>
-            <div class="tombol">
-                <button>SUBMIT</button>
-                <button>BATAL</button>
-            </div>
-        </form>
+        <div class="container">
+            <aside>
+                <div>
+                    <img src="asset/retana.png" alt="account">
+                </div>
+                <div>
+                    <p id="nama">Fedro</p id="nama">
+                    <p id="domisili">Bekasi</p>
+                    <p id="role">Front End</p>
+                </div>
+                <div>
+                    <button>LOG OUT</button>
+                </div>
+            </aside>
+            <form id="pelaporan">
+                <h2>LAPORAN TELAH TERJADI BENCANA</h2>
+                <div class="formPelaporan">
+                    <label for="infoLokasi">LOKASI</label>
+                    <input type="text">
+                    <label for="infoDesa">DESA</label>
+                    <input type="text">
+                    <label for="InfoKecamatan">KECAMATAN</label>
+                    <input type="text">
+                </div>
+                <div class="formPelaporan">
+                    <label for="infoBencana">JENIS BENCANA</label>
+                    <input type="text">
+                    <label for="infoTanggal">HARI/TANGGAL</label>
+                    <input type="date">
+                    <label for="infoJam">JAM</label>
+                    <input type="time">
+                </div>
+                <div class="tombol">
+                    <button>SUBMIT</button>
+                    <button>BATAL</button>
+                </div>
+            </form>
+        </div>
         <table>
             <tr>
                 <th>LOKASI</th>

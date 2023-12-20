@@ -32,12 +32,19 @@ footer {
     width: 100%;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 aside {
     background-color: #ffff00;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     float: left;
-    width: 200px;
+    width: 300px;
+    height: 400px;
     padding: 20px;
     box-sizing: border-box;
     margin: 20px 30px;
@@ -47,28 +54,39 @@ aside > div {
     align-items: center;
     text-align: center;
 }
+button {
+    background-color: #000080;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px;
+}
 
 form {
     background-color: #ffff00;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 1000px;
+    width: 100%;
+    height: 400px;
     margin: 20px 30px;
-    float: right;
 }
-form > .formLokasi, .formWaktu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-form > div {
-    margin: 20px 30px;
+h2{
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+}
+.formPelaporan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+.tombol {
+    display: flex;
+    justify-content: center;
 }
 
 table {
