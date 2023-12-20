@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+header {
+    background-color: #f60;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 60px;
+}
+img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #f60;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 50px;
+    bottom: 0;
+    width: 100%;
+}
+
+aside {
+    background-color: #ffff00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    float: left;
+    width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px 30px;
+}
+aside > div {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    background-color: #ffff00;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+    margin: 20px 30px;
+    float: right;
+}
+form > .formLokasi, .formWaktu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form > div {
+    margin: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+th {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #87CEEB;
+}
+td {
+    border: 2px dashed black;
+    padding: 5px;
+}
