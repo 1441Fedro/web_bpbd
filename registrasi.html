@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi dan Login</title>
+    <link rel="icon" href="asset/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/registrasi.css">
+</head>
+<body>
+    <header>
+        <img src="asset/logo.png" alt="Logo">
+        <h1>Web_BPBD</h1>
+    </header>
+    <form id="registrationForm">
+        <h2>Registrasi</h2>
+        <label for="regUsername">Username:</label>
+        <input type="text" id="regUsername" name="regUsername" required>
+
+        <label for="regPassword">Password:</label>
+        <input type="password" id="regPassword" name="regPassword" required>
+
+        <label for="emailOrPhone">Email atau Nomor Telepon:</label>
+        <input type="text" id="emailOrPhone" name="emailOrPhone" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$|^\d{10,}$" title="Masukkan email atau nomor telepon yang valid" required>
+
+        <div id="tombol">
+            <button type="button" onclick="register()">SIGN UP</button>
+        </div>
+        <p>Sudah Punya Akun? <a href="login.html">Klik Login</a></p>
+    </form>
+    <footer>
+        <p><b>Website Pelaporan Kejadian Bencana © 2023, Kelompok 5</b></p>
+    </footer>
+
+    <script>
+        function register() {
+            // Implement registration logic here
+            alert('Registrasi berhasil!');
+        }
+    </script>
+
+</body>
+</html>
