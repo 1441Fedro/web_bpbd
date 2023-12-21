@@ -1,0 +1,22 @@
+document.getElementById('pelaporan').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const lokasi = document.getElementById('lokasi').value;
+    const desa = document.getElementById('desa').value;
+    const kecamatan = document.getElementById('kecamatan').value;
+    const jenisBencana = document.getElementById('jenisBencana').value;
+    const tanggal = document.getElementById('tanggal').value;
+    const jam = document.getElementById('jam').value;
+    const table = document.getElementById('tabel');
+    const rowCount = table.rows.length;
+    const row = table.insertRow(rowCount);
+    const cell1 = row.insertCell(0);
+    const cell2 = row.insertCell(1);
+    const cell3 = row.insertCell(2);
+    const cell4 = row.insertCell(3);
+    const cell5 = row.insertCell(4);
+    cell1.innerHTML = rowCount;
+    cell2.innerHTML = kalimat;
+    cell3.innerHTML = daerah;
+    cell4.innerHTML = tangga;
+    cell5.innerHTML = jam;
+});
