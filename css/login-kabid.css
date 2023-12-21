@@ -9,7 +9,6 @@ header {
     padding: 20px;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
 }
 h1 {
     margin: 0;
@@ -44,11 +43,11 @@ aside {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     float: left;
-    width: 300px;
+    width: 200px;
     height: 400px;
     padding: 20px;
     box-sizing: border-box;
-    margin: 20px 30px;
+    margin: 20px 0px 20px 50px;
 }
 aside > div {
     justify-content: center;
@@ -64,6 +63,9 @@ button {
     cursor: pointer;
 }
 
+.containerTabel {
+    margin-right: 50px;
+}
 table {
     border-collapse: collapse;
     width: 100%;
